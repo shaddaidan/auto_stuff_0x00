@@ -1,0 +1,1 @@
+print('shaddai is really co0l')

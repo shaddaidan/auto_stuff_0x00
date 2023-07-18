@@ -9,8 +9,10 @@ for line in file:
         fail.write(line)
 
 
-print(fail.read())
-
 file.close()
 fail.close()
 
+# Reopen 'fail.txt' in read mode and print its content
+fail = open('fail.txt', 'r')
+print(fail.read())
+fail.close()
